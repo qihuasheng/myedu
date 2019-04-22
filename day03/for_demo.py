@@ -24,6 +24,7 @@ def for_break():
         if i==3:
             break
 def for_continue():
+    # 停止当前
     for i in range(11):
         print(i)
         if i == 5:
@@ -31,17 +32,39 @@ def for_continue():
         print('hao%s'%i)
         print('')
 def for_nine():
+    # 九九乘法表
     for i in range(1,10):
         for k in range(1,i+1):
             print('%s*%s=%s '%(k,i,k*i),end=' ')
         print('')
 
 def for_sum():
+    # 计算1到50之间的奇数和
     sum=0
     for i in range(1,51):
         if i%2 ==1:
             sum =sum+i
     print(sum)
+def for_sun():
+    sum =0
+    for i in range(1,51):
+        if i%2 ==0:
+            sum =sum+i
+def for_ww():
+    clist=[]
+    alist=[['admin', '123456', '成功', '登录成功'], ['admin1', '123456', '错误', '用户名错误'], ['admin', '123456a', '错误', '密码错误'], ['admin', '123456', '成功', '登录成功1'], ['admin1', '123456', '错误', '用户名错误1'], ['admin', '123456a', '错误', '密码错误1']]
+    b=len(alist)
+    for i in range(b):
+        b=alist[i].pop(-1)
+        clist.append(b)
+    print(alist)
+    print(clist)
+
+
+
+
+
+
 
 
 
@@ -52,4 +75,5 @@ if __name__ == '__main__':
     # for_break()
     # for_continue()
     # for_nine()
-    for_sum()
+    # for_sum()
+    for_ww()
