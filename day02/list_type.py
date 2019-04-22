@@ -21,9 +21,10 @@ def list_del():
     alist.pop(-1)
     print(alist)
 def list_add():
-    #list增加用 .append
+    #list增加用 .append 括号里('abc')面填写要增加的元素
     alist=[1,2,3,4,5]
-    alist.append(5)
+    alist.append('abc')
+
     print(alist)
     blist=[3,4,5]
     #添加一个集合blist

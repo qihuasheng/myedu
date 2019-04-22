@@ -1,4 +1,4 @@
-
+#调用方法 from 包名 import 模块名
 from day01 import base_type
 
 if __name__ == '__main__':

@@ -18,16 +18,23 @@ def float_demo():
      print(float)
      print(type(float))
 def add_demo(a,b):
+    #加法
     print(a+b)
 def type_zhuanhuan():
+    #转换类型
      aint=7
+    #转换int类型
      print(type(aint))
+    #转换str类型
      print(type( str(aint) ))
 def str_join():
      a=5
      b=5.8
      c='什么'
+     #合并多个元素
+     # 方法一
      print('%s %s %s'%(a,b,c))
+     #方法二
      print(str(a)+str(b)+c)
 def str_abc():
     ab='这是什么'
@@ -36,7 +43,9 @@ def str_abc():
     print(ab+str(b)+cd)
 
 def jianfa_demo(a,b):
+    #减法
      c=a-b
+    # return c
      return c
 if __name__ == '__main__':
     # test3()
