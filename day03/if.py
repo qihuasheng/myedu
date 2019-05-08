@@ -10,7 +10,8 @@ def if_demo():
         print('5')
     elif a == 7:
         print('7')
-    else
+    else:
+
 
 
 
